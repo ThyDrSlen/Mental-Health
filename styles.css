@@ -1,3 +1,42 @@
-i{
-    color:black;
+.container {
+    padding: 10px;
+    color: lightgrey;
+     background: rgb(252, 87, 94);
+    background: radial-gradient(circle, rgba(252, 87, 94, 1) 0%, rgba(144, 213, 236, 1) 100%);
+    padding: 5px;
 }
+
+.row1 {
+   
+    
+}
+
+body {
+    background: #343a40;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+  background-color: rgba(144, 213, 236, 1)); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+i {}
+
+.inline {
+    display: inline-block;
+}
+h1{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fa-3x {}
