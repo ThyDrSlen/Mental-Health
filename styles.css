@@ -5,7 +5,7 @@ body{
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 h1 {
@@ -14,11 +14,13 @@ h1 {
     justify-content: center;
 }
 
-
-.container {
-    color: lightgrey;
+body{
     background: rgb(252, 87, 94);
     background: radial-gradient(circle, rgba(252, 87, 94, 1) 0%, rgba(144, 213, 236, 1) 100%);
+}
+.container {
+    color: white;
+    
     padding: 5px;
 }
 .navbar-brand{
@@ -33,10 +35,11 @@ h1 {
 .row1 {}
 
 
-
+/*body::-webkit-scrollbar{*/
+/*    color:black;*/
+/*}*/
 .btn {
     background-color: rgba(144, 213, 236, 1);;
-    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -64,7 +67,7 @@ i {}
 }
 
 .navbar-brand:hover{
-    color:red;
+    color:turquoise;
 }
 
 .test_under:hover{
@@ -72,6 +75,9 @@ i {}
 }
 
 /*Index Page*/
+.test_form{
+    margin-left: 32%;
+}
 /*FAQ Page*/
 /*Doctors Page*/
 .dottore-block{
