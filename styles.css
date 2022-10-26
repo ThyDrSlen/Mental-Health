@@ -1,7 +1,7 @@
 /*All 4 pages*/
-body{
-    height: 100vh;
-    background: #343a40;
+img {
+  border-radius: 2rem;
+  border:5px solid black;
 }
 
 a {
@@ -10,39 +10,47 @@ a {
 
 h1 {
     display: flex;
+    
     align-items: center;
     justify-content: center;
 }
 
-body{
-    background: rgb(252, 87, 94);
-    background: radial-gradient(circle, rgba(252, 87, 94, 1) 0%, rgba(144, 213, 236, 1) 100%);
-}
-.container {
-    color: white;
+body {
     
+    background: radial-gradient(circle, #6610f2 0%, rgba(144, 213, 236, 1) 100%);
+}
+
+.container {
+    /*color: white;*/
+    /* This is messing with the doctor page. If you were trying to 
+                      fix something else you're gonna need to be a bit more specific with the css*/
     padding: 5px;
 }
-.navbar-brand{
-    color:white;
+
+.navbar-brand {
+    color: white;
 }
 
 .test {
-    text-align:right !important;
+    text-align: right !important;
 
 }
 
 .row1 {}
 
 
-/*body::-webkit-scrollbar{*/
-/*    color:black;*/
+/*body::-webkit-scrollbar {*/
+/*    display: block;*/
+/*    overflow: auto;*/
+/*    background-color: purple;*/
 /*}*/
+
 .btn {
-    background-color: rgba(144, 213, 236, 1);;
+    background-color: rgba(144, 213, 236, 1);
+    ;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -58,29 +66,41 @@ i {}
 
 .fa-3x {}
 
-/*About Page*/ 
-.pink-bg{
-    background:rgba(241, 87, 221);
+/*About Page*/
+.pink-bg {
+    background: rgba(241, 87, 221);
     opacity: .75;
     border-radius: 50px;
-    padding-bottom: 20px;
+    padding: 1.5rem;
 }
 
-.navbar-brand:hover{
-    color:turquoise;
+.navbar-brand:hover {
+    color: turquoise;
 }
 
-.test_under:hover{
+.test_under:hover {
     text-decoration: underline;
 }
 
 /*Index Page*/
-.test_form{
+.test_form {
     margin-left: 32%;
 }
+
 /*FAQ Page*/
 /*Doctors Page*/
-.dottore-block{
-    margin-bottom:20px;
+.dottore-block {
+    margin-bottom: 1.2rem;
 }
 
+.carousel {
+    width: 640px;
+    height: 360px;
+
+}
+
+.main-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
