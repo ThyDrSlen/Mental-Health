@@ -1,17 +1,6 @@
-.container {
-    padding: 10px;
-    color: lightgrey;
-     background: rgb(252, 87, 94);
-    background: radial-gradient(circle, rgba(252, 87, 94, 1) 0%, rgba(144, 213, 236, 1) 100%);
-    padding: 5px;
-}
-
-.row1 {
-   
-    
-}
-
-body {
+/*All 4 pages*/
+body{
+    height: 100vh;
     background: #343a40;
 }
 
@@ -19,24 +8,69 @@ a {
     color: white;
 }
 
-.btn {
-  background-color: rgba(144, 213, 236, 1)); /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.container {
+    color: lightgrey;
+    background: rgb(252, 87, 94);
+    background: radial-gradient(circle, rgba(252, 87, 94, 1) 0%, rgba(144, 213, 236, 1) 100%);
+    padding: 5px;
+}
+.navbar-brand{
+    color:white;
+}
+
+.test {
+    text-align:right !important;
+
+}
+
+.row1 {}
+
+
+
+.btn {
+    background-color: rgba(144, 213, 236, 1);;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 i {}
 
 .inline {
     display: inline-block;
 }
-h1{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
+
 .fa-3x {}
+
+/*About Page*/ 
+.pink-bg{
+    background:rgba(241, 87, 221);
+    opacity: .75;
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand:hover{
+    color:red;
+}
+
+.test_under:hover{
+    text-decoration: underline;
+}
+
+/*Index Page*/
+/*FAQ Page*/
+/*Doctors Page*/
