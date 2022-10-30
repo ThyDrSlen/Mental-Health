@@ -1,4 +1,19 @@
+*{
+    margin:0px;
+}
 /*All 4 pages*/
+.carousel-indicators {
+    margin-bottom: -7rem ;
+    
+}
+
+.btn{
+    color: transparent;
+    border:2px solid black;
+    
+}
+
+
 img {
   border-radius: 2rem;
   border:5px solid black;
@@ -20,15 +35,29 @@ body {
     background: radial-gradient(circle, #6610f2 0%, rgba(144, 213, 236, 1) 100%);
 }
 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
 .container {
-    /*color: white;*/
-    /* This is messing with the doctor page. If you were trying to 
-                      fix something else you're gonna need to be a bit more specific with the css*/
     padding: 5px;
 }
 
-.navbar-brand {
-    color: white;
+.cotainer.fluid {
+    background:#937DC2;
+    
 }
 
 .test {
@@ -75,9 +104,11 @@ i {}
 }
 
 .navbar-brand:hover {
-    color: turquoise;
+    color: #7452f0 ;
 }
-
+.btn:hover{
+    background-color:blue!important;
+}
 .test_under:hover {
     text-decoration: underline;
 }
@@ -85,6 +116,11 @@ i {}
 /*Index Page*/
 .test_form {
     margin-left: 32%;
+}
+
+.pos{
+    position: relative;
+    top:91px;
 }
 
 /*FAQ Page*/
@@ -103,4 +139,14 @@ i {}
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.card-img{
+    height: 253px;
+}
+
+footer{
+    
+    background:#C689C6;
+    border-radius: 50px;
 }
